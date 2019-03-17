@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25077EF5223EDEF200E7E57C /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25077EF4223EDEF200E7E57C /* WeatherLocation.swift */; };
 		250AF87C2235B9F6009D047A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AF87B2235B9F6009D047A /* AppDelegate.swift */; };
 		250AF8812235B9F6009D047A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250AF87F2235B9F6009D047A /* Main.storyboard */; };
 		250AF8832235B9F8009D047A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250AF8822235B9F8009D047A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25077EF4223EDEF200E7E57C /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
 		250AF8782235B9F6009D047A /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		250AF87B2235B9F6009D047A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		250AF8802235B9F6009D047A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				250AF87B2235B9F6009D047A /* AppDelegate.swift */,
+				25077EF4223EDEF200E7E57C /* WeatherLocation.swift */,
 				250AF8912235C1C5009D047A /* PageVC.swift */,
 				250AF88D2235BA4F009D047A /* DetailVC.swift */,
 				250AF88F2235BFB3009D047A /* ListVC.swift */,
@@ -91,7 +94,6 @@
 				AEFD00929000286258D2D5F8 /* Pods-WeatherGift.debug.xcconfig */,
 				86E2C218310CF68C027E6B75 /* Pods-WeatherGift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25077EF5223EDEF200E7E57C /* WeatherLocation.swift in Sources */,
 				250AF8902235BFB3009D047A /* ListVC.swift in Sources */,
 				250AF8922235C1C5009D047A /* PageVC.swift in Sources */,
 				250AF87C2235B9F6009D047A /* AppDelegate.swift in Sources */,
