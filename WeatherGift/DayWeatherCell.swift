@@ -31,10 +31,6 @@ class DayWeatherCell: UITableViewCell {
         dayCellSummary.text = dailyForecast.dailySummary
         dayCellMaxTemp.text = String(format: "%2.f", dailyForecast.dailyMaxTemp) + "°"
         dayCellMinTemp.text = String(format: "%2.f", dailyForecast.dailyMinTemp) + "°"
-        
-//        let usableDate = Date(timeIntervalSince1970: dailyForecast.dailyDate)
-//        dateFormatter.timeZone = TimeZone(identifier: timeZone)
-//        let dateString = dateFormatter.string(from: usableDate)
         let dateString = dailyForecast.dailyDate.format(timeZone: timeZone, dateFormatter: dateFormatter)
         dayCellWeekday.text = dateString
     }
